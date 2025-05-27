@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+   font: size 10px;
+}
+#menu li{
+    display: inline;
+}
+
+
+ul#menu{
+    background-color:#624BE1;
+    line-height: 50px;
+    position: fixed;
+    width: 100%;
+}
+    #menu a:link, a:visited{
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        padding: 20px;
+        text-decoration: none;
+        color: #DFDEE6;
+    
+        
+    }
+    #menu a:hover, a:active{
+        background-color: #552A33;
+
+    }
+h1{
+    
+    margin-bottom: 26px;
+}
+#about p {
+    background-color: #2C4001;
+    width:   100%;
+    padding: 50px;
+    color: aliceblue;
+    font-size: 1.2rem; 
+}
+#gallery{
+    background-color: #197564;
+    height: 100%;
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+#gallery img{
+    width: 250px;
+    border: 1px #fff solid;
+    margin:  20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px #000;
+}
+#contact{
+    background-color: #DB5D21;
+    height: 100vh;
+    text-align: center;
+    padding: 40px;
+    font-size: 1.4rem;
+}
+    #contact input,textarea{
+        width: 400px;
+        font-size: 1.0rem;
+        padding: 10px;
+        margin-bottom: 15px;
+        border-radius: 10px;
+        border: none;
+    }
+    #contact label{
+        display: block;
+    }
+    #contact button{
+        display: block;
+        margin: 0 auto;
+        background-color: #454A0B;
+        color: #DFDEE6;
+        font-size: 1.0 rem;
+        padding: 10px 50px;
+        border-radius: 10px;
+        border: none;
+    }
+    #contact button:hover{
+        background-color: #4F40DB;
+    }
+    p{
+        background-color:#A43DDB;
+        padding: 40px;
+        font-size: 1.4rem;
+    }
+    
